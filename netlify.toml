@@ -1,0 +1,19 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  # Force devDeps install even though NODE_ENV=production
+  NPM_FLAGS = "--include=dev"
+  # Tell the secrets scanner to ignore public/non-secret values
+  SECRETS_SCAN_ENABLED = "true"
+  SECRETS_SCAN_OMIT_KEYS = "APP_URL,IRO_ISSUER,NODE_ENV"
+  SECRETS_SCAN_OMIT_PATHS = ".env.example,lib/config.ts,app/(marketing)/page.tsx"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[dev]
+  command = "npm run dev"
+  port = 3000
+  targetPort = 3000
