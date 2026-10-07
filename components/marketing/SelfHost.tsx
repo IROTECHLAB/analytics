@@ -1,8 +1,8 @@
 import { Server, Terminal, Database, Github } from 'lucide-react';
 
 const SELFHOST_SNIPPET = `# 1. Clone the repo
-git clone https://github.com/IROTECHLAB/irotechlab-analytics
-cd irotechlab-analytics
+git clone https://github.com/IROTECHLAB/analytics
+cd analytics
 
 # 2. Install deps
 npm install
@@ -53,7 +53,7 @@ export function SelfHost() {
           </ul>
 
           <a
-            href="https://github.com/IROTECHLAB/irotechlab-analytics"
+            href="https://github.com/IROTECHLAB/analytics"
             target="_blank"
             rel="noreferrer noopener"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-md font-semibold border border-border-strong text-text-muted hover:text-text transition-colors"

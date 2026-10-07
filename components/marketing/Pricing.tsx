@@ -54,7 +54,7 @@ const TIERS = [
       'Community support',
     ],
     cta: 'View on GitHub',
-    ctaHref: 'https://github.com/IROTECHLAB/irotechlab-analytics',
+    ctaHref: 'https://github.com/IROTECHLAB/analytics',
     highlighted: false,
     external: true,
   },

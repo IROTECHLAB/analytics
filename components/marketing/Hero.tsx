@@ -44,7 +44,7 @@ export function Hero() {
             <ArrowRight size={16} />
           </Link>
           <a
-            href="https://github.com/IROTECHLAB/irotechlab-analytics"
+            href="https://github.com/IROTECHLAB/analytics"
             target="_blank"
             rel="noreferrer noopener"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-md font-semibold border border-border-strong text-text-muted hover:text-text transition-colors"

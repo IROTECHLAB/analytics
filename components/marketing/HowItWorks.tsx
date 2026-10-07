@@ -60,7 +60,7 @@ export function HowItWorks() {
         <pre className="text-xs md:text-sm font-mono text-text overflow-x-auto">
           <code>{`<script defer
   data-site="iro_site_xxx"
-  src="https://irotechlab-analytics.netlify.app/script.js"
+  src="https://analytics.irotechlab.xi.to/script.js"
 ></script>`}</code>
         </pre>
       </div>

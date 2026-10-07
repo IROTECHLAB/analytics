@@ -8,7 +8,7 @@ export const metadata = {
 
 const TRACKING_SNIPPET = `<script defer
   data-site="iro_site_xxxxxxxxxxxx"
-  src="https://irotechlab-analytics.netlify.app/script.js"
+  src="https://analytics.irotechlab.xi.to/script.js"
 ></script>`;
 
 const CUSTOM_EVENT = `// Track any custom event
@@ -18,7 +18,7 @@ window.iro.track('checkout_started', { amount: 29 });`;
 const SPA = `// Single-page apps: the script auto-detects
 // pushState / popstate / hashchange. Nothing to do.`;
 
-const API_COLLECT = `GET https://irotechlab-analytics.netlify.app/api/collect
+const API_COLLECT = `GET https://analytics.irotechlab.xi.to/api/collect
   ?site=iro_site_xxxxxxxxxxxx
   &path=%2Fpage
   &ref=https%3A%2F%2Fgoogle.com
@@ -183,7 +183,7 @@ export default function DocsPage() {
           </li>
         </ol>
         <a
-          href="https://github.com/IROTECHLAB/irotechlab-analytics"
+          href="https://github.com/IROTECHLAB/analytics"
           target="_blank"
           rel="noreferrer noopener"
           className="inline-block text-sm text-brand-400 hover:underline"

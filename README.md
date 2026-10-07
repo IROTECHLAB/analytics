@@ -46,8 +46,8 @@ Save the signing secret.
 ### 3. Clone and install
 
 ```bash
-git clone https://github.com/IROTECHLAB/irotechlab-analytics
-cd irotechlab-analytics
+git clone https://github.com/IROTECHLAB/analytics
+cd analytics
 npm install
 cp .env.example .env.local
 ```

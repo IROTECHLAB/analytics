@@ -48,7 +48,7 @@ export function Footer() {
             </li>
             <li>
               <a
-                href="https://github.com/IROTECHLAB/irotechlab-analytics"
+                href="https://github.com/IROTECHLAB/analytics"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="text-text-muted hover:text-text inline-flex items-center gap-1"
