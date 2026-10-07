@@ -167,12 +167,12 @@ export default function DocsPage() {
           <li>
             Register your own app at{' '}
             <a
-              href="https://irotechlab-auth.netlify.app/developer"
+              href="https://auth.irotechlab.xi.to/developer"
               target="_blank"
               rel="noreferrer noopener"
               className="text-brand-400 hover:underline"
             >
-              irotechlab-auth.netlify.app/developer
+              auth.irotechlab.xi.to/developer
             </a>
           </li>
           <li>Create a Postgres database (Neon, Supabase, RDS, etc.)</li>

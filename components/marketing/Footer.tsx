@@ -87,7 +87,7 @@ export function Footer() {
             </li>
             <li>
               <a
-                href="https://irotechlab-auth.netlify.app"
+                href="https://auth.irotechlab.xi.to"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="text-text-muted hover:text-text"

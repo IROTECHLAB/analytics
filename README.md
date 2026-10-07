@@ -24,7 +24,7 @@ Live: https://analytics.irotechlab.xi.to
 
 ### 1. Register an app
 
-Visit https://irotechlab-auth.netlify.app/developer/new
+Visit https://auth.irotechlab.xi.to/developer/new
 
 - Client type: Confidential
 - Scopes: openid, profile, email
@@ -56,7 +56,7 @@ cp .env.example .env.local
 
 ```txt
 APP_URL=http://localhost:3000
-IRO_ISSUER=https://irotechlab-auth.netlify.app
+IRO_ISSUER=https://auth.irotechlab.xi.to
 IRO_CLIENT_ID=iro_xxxxx
 IRO_CLIENT_SECRET=iro_sk_live_xxxxx
 IRO_WEBHOOK_SECRET=iro_whsec_xxxxx
